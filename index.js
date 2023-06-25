@@ -8,7 +8,7 @@ class Snake{
         this.rotateX = 0
         this.rotateY = 1
 
-    }
+    } 
 
     move(){
         var newRect;
