@@ -156,7 +156,7 @@ function checkCollision() {
     if (head.x < 0 || head.x >= canvas.width || head.y < 0 || head.y >= canvas.height) {
         // Si ha chocado con la pared, terminar el juego
         clearInterval(null);
-        //alert("Richi Wins!"); //enciende o apaga la alerta.
+        alert("Richi Wins!"); //enciende o apaga la alerta.
     }
 }
 
